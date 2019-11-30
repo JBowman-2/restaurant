@@ -1,0 +1,25 @@
+
+header, nav, main, footer {
+    max-width: 60rem;
+    margin: auto;
+}
+
+nav ul {
+    padding-left: $gutter;
+}
+
+nav li {
+    width: auto;
+}
+
+nav a {
+    padding: .5rem 1rem; 
+}
+
+main figure.lights {
+    width: 33%;
+}
+
+
+
+

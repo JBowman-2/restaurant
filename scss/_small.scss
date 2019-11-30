@@ -1,0 +1,136 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+
+/* body */
+
+body {
+    font-family: $fontFamily;
+    font-weight: $regularWeight;
+    font-size: 16px;
+}
+
+
+/* header */
+
+header {
+    
+    padding: 1rem $gutter;
+    color: white;
+}
+
+header img {
+    float: left;
+    padding-right: 15px;
+}
+
+header h1 {
+    color: $primaryColor;
+    font-weight: $heavyWeight;
+    font-size: 2.5rem;
+    margin: 1px 0px 0px 0px;
+}
+
+header h2 {
+    font-weight: $regularWeight;
+    font-size: 1.5rem;
+    margin: 0;
+    display: none;
+    color: white;
+}
+
+/* navigation */
+
+
+nav {
+    background-color: $subColor;
+    margin-bottom: 0px;   
+}
+
+nav ul {
+    margin: 0px; padding: 0px;
+}
+
+nav li {
+    float: left;
+    width: 25%;
+    list-style-type: none;
+    text-align: center;
+    background-color: lighten($subColor, 20%);
+    
+}
+
+nav li.active { 
+    background-color: lighten($subColor, 40%);
+    
+}
+
+nav a {
+    font-size: 1rem;
+    display: block;
+    padding: .8rem 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a.active {
+    font-weight: $heavyWeight;
+    color: darken($primaryColor, 25%);
+}
+
+nav a:hover {
+    background-color: darken($subColor, 10%);
+
+}
+
+/* main */
+main {
+    background-color: rgb(238, 237, 237);
+    padding: 1rem 0px;
+}
+
+main h1 {
+    color: darken($primaryColor, 25%);
+    margin: 0 0 5px $gutter;
+}
+
+
+picture.heroPhoto {
+    display: block;
+    width: 100%;
+    margin: 0px;
+ 
+}
+
+picture.heroPhoto img {
+    width: 100%;
+}
+
+figure.lights img {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+figure.lights {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+footer {
+    background-color: #2e1e0d;
+    text-align: center;
+    padding: 1rem $gutter; 
+    color: white;
+}
+

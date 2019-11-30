@@ -1,0 +1,25 @@
+
+
+    header h1 {
+        font-size: 3rem;
+        margin: 10px 0px 0px 0px;
+    }
+    
+    header h2 {
+        font-weight: 400;
+        font-size: 1.8rem;
+        margin: 0;
+        display: block;
+    }
+
+
+nav li {
+    float: left;
+    width: 25%;
+}
+
+main figure.lights {
+    float: right;
+    width: 48%;
+    margin: 0 0 0 $gutter;
+}
