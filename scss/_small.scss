@@ -96,6 +96,10 @@ main h1 {
     margin: 0 0 5px $gutter;
 }
 
+main p {
+    margin-left: $gutter;
+}
+
 
 picture.heroPhoto {
     display: block;
@@ -108,18 +112,12 @@ picture.heroPhoto img {
     width: 100%;
 }
 
-figure.lights img {
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
+figure.founder {
+    float: right;
+    margin: $gutter;
 }
 
-figure.lights {
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    
-}
+
 
 .clearfix:after {
     content: "";
