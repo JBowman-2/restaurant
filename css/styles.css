@@ -323,8 +323,9 @@ header {
   padding: 1rem 2%;
   color: white; }
 
-header img {
+header figure.logo {
   float: left;
+  margin: 0;
   padding-right: 15px; }
 
 header h1 {
